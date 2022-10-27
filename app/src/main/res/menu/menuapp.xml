@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/groupItem"
+        android:icon="@drawable/icons8_people_96"
+        android:title="Grupos" />
+    <item
+        android:id="@+id/myGroupsItem"
+        android:icon="@drawable/icons8_google_groups_100"
+        android:title="Mis grupos" />
+    <item
+        android:id="@+id/profileItem"
+        android:icon="@drawable/icons8_male_user_96__1_"
+        android:title="Mi Perfil" />
+</menu>

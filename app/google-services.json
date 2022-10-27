@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "468574221017",
+    "project_id": "study-teams",
+    "storage_bucket": "study-teams.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468574221017:android:f1c7632eb27b66563144c8",
+        "android_client_info": {
+          "package_name": "co.app.studyteam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468574221017-bpdhvv2m0pnv7mbv70hqvkhq9l7599m1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY3fsXmjxcrphsrwXUaZHFGBNKZJgZaYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468574221017-bpdhvv2m0pnv7mbv70hqvkhq9l7599m1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
