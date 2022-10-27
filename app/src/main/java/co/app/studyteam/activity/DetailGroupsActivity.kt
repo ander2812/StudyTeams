@@ -29,7 +29,7 @@ class DetailGroupsActivity : AppCompatActivity() {
         getMembersQuantity(group)
         binding.dateGroupText.text = group.creationDate
         for (i in group.schedule.indices){
-            hour = group.schedule[i].starthour.toString()
+            hour = group.schedule[i].startHour.toString()
             day = group.schedule[i].day
         }
 

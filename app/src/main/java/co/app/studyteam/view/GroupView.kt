@@ -23,8 +23,8 @@ class GroupView(itemView: View) : RecyclerView.ViewHolder(itemView) {
         name.text = groupView.name
         for (group in groupView.schedule){
             day.text = group.day
-            starthour.text = group.starthour.toString()
-            finishhour.text = group.endhour.toString()
+            starthour.text = group.startHour.toString()
+            finishhour.text = group.endHour.toString()
         }
     }
 

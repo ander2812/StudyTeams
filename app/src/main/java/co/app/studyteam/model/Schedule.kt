@@ -4,6 +4,6 @@ import java.io.Serializable
 
 data class Schedule (
     var day: String = "",
-    var starthour: Double = 0.0,
-    var endhour: Double = 0.0
+    var startHour: Double = 0.0,
+    var endHour: Double = 0.0
         ): Serializable

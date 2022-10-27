@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.view.children
 import androidx.lifecycle.lifecycleScope
 import co.app.studyteam.activity.MenuMain
 import co.app.studyteam.activity.MainActivity
@@ -60,10 +61,19 @@ class ProfileFragment : Fragment() {
             startActivity(intent)
         }
 
-        getCourses()
-        getActivities()
+
 
         return vista
+    }
+
+
+    override fun onResume() {
+        super.onResume()
+        binding.coursesContainer.removeAllViews()
+        binding.activitiesContainer.removeAllViews()
+
+        getCourses()
+        getActivities()
     }
 
     override fun onDestroyView() {

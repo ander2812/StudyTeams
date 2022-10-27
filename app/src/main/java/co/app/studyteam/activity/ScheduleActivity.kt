@@ -76,8 +76,7 @@ class ScheduleActivity : AppCompatActivity() {
                     onSubmitClickListener = { name ->
 
                                 adapter.addSchedule(name)
-                                adapter.deleteAllGroup()
-                                adapter.notifyDataSetChanged()
+                                finish()
 
 
                     }
